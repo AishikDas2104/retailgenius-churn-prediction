@@ -52,10 +52,10 @@ def train_model():
         # Log model to MLflow
         mlflow.sklearn.log_model(model, "churn_model")
 
-        # ✅ Save model locally (IMPORTANT for evaluate.py)
+        # Save model locally (IMPORTANT for evaluate.py)
         joblib.dump(model, MODEL_PATH)
 
-        print("✅ Model trained, logged in MLflow, and saved locally.")
+        print("Model trained, logged in MLflow, and saved locally.")
 
 
 if __name__ == "__main__":

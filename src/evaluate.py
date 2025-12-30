@@ -20,7 +20,7 @@ def evaluate_model():
     model = joblib.load(MODEL_PATH)
     predictions = model.predict(X_test)
 
-    print("📊 Model Evaluation Report:")
+    print("Model Evaluation Report:")
     print(classification_report(y_test, predictions))
 
 
