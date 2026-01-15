@@ -188,7 +188,6 @@ This project follows best practices for production-ready AI systems:
 ## Author
 
 Aishik Das
-AI Project Methodology – EPITA International Programs
 
 ---
 
@@ -199,3 +198,4 @@ AI Project Methodology – EPITA International Programs
 * SHAP documentation
 * CRISP-DM methodology resources
 * Public e-commerce churn datasets
+
